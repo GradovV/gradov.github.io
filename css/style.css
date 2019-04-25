@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+
+html,body{
+	margin:0px;
+}
+h1{
+    background: #FFFF00;
+    font-size: 4em;
+    color:#FFFF00;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 30px;
+    font-family: Alfa Slab One;
+   	
+   }
+   h2{
+    color:grey;
+   }
+header{
+	float: left;
+	margin-top: 2%;
+	width: 100%;
+	height: 100px;
+	background-color: yellow;
+}
+#logotxt{
+	float: left;
+	font-family: Alfa Slab One;
+	font-size: 4em;
+	color: yellow;
+	background-color: black;
+	padding-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	}
+#butt{
+	float: right;
+	margin-right: 8%;
+	width: 100px;
+	transition:  all.6s ease;
+}
+#butt:hover{
+	margin-right: 6%;
+	background-color: black;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-left: 20px solid white;
+	border-right: 20px solid white;
+}
+main{
+}
+#mtxt{
+	float: left;
+	margin-top: 2%;
+	background-color: #FEFF0043;
+	margin-left: 20%;
+	margin-right: 20%;
+	font-size: 2em;
+	font-family: Oswald;
+	text-shadow: 1px 1px 0px white;
+	padding: 20px;
+	border-radius: 70px;
+	transition: all.6s ease;
+}
+#mtxt:hover{
+	font-size: 2.5em;
+	background-color: #FFFF00E7;
+	box-shadow: 0px 0px 260px yellow;
+	margin-left: 15%;
+	margin-right: 15%;
+
+}
+#mtxt2{
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: yellow;
+	font-size: 1.5em;
+	font-family: Oswald;
+	text-shadow: 1px 1px 0px white;
+	box-shadow: 0px 0px 50px yellow;
+	padding: 20px;
+	border-radius: 50px;
+}
+#mtxt3{
+	float: left;
+	margin-top: 2%;
+	margin-left: 10%;
+	margin-right: 10%;
+	background-color: yellow;
+	font-size: 1.5em;
+	font-family: Oswald;
+	text-shadow: 1px 1px 0px white;
+	box-shadow: 0px 0px 50px yellow;
+	padding: 20px;
+	border-radius: 50px;
+}
+#NAVI{
+	color: yellow;
+	font-size: 2em;
+	text-shadow: 2px 2px 1px black;
+	font-family: Alfa Slab One;
+}
+#NAVI:hover{
+	color: black;
+	text-shadow: 2px 2px 1px white;
+
+}
+/* БЛОКИ ИГРОКОВ */
+
+#box1,#box2,#box3,#box4,#box5 {
+	float: left;
+	color: white;
+	font-size: 2em;
+	font-family: Oswald;
+	text-shadow: 2px 2px 0px black;
+	border-top: 15px solid yellow;
+}
+#box5{
+	border-bottom: 15px solid yellow;
+}
+#box1{
+	margin-top: 5%;
+}
