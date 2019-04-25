@@ -39,7 +39,7 @@ header{
 	float: right;
 	margin-right: 8%;
 	width: 100px;
-	transition:  all.6s ease;
+	transition:  all.5s ease;
 }
 #butt:hover{
 	margin-right: 6%;
